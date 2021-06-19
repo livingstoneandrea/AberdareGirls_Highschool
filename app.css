@@ -565,6 +565,8 @@ footer {
 a.hamburger {
   color: #303c42;
   padding-top: 0.5rem;
+  border: 2px solid #303c42;
+  border-radius: 8px;
 }
 
 .hamburger {
