@@ -200,6 +200,9 @@ img {
 .box_BotPad2 {
   padding-bottom: 1.5em;
 }
+.box_pad3 {
+  padding: 2rem 4.5% !important;
+}
 
 .box_horizontalPad2 {
   padding-right: 3%;
@@ -486,7 +489,7 @@ hr {
   font-size: 18px;
   font-family: "Karla", sans-serif;
 }
-section.brands .brand_box {
+/* section.brands .brand_box {
   background: #fff;
   box-shadow: #d8d8d8 2px 2px 10px;
   margin-bottom: 2rem;
@@ -504,7 +507,7 @@ section.brands .brand_box {
 .image_block .img-group {
   width: 250px;
   height: 120px;
-}
+} */
 .layout-grid {
   display: grid;
   grid-gap: 5px;
@@ -716,7 +719,7 @@ td span {
   cursor: pointer;
 }
 .site-content {
-  background: #fff;
+  background: #fcf7f3;
   padding-top: 17%;
   z-index: 1;
   border-radius: 0 0 10px 10px;
