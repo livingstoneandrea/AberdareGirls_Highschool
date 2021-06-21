@@ -368,6 +368,8 @@ a.navbar-item {
   color: #2c3e50;
   font-family: "Karla-Bold";
   font-size: 16px;
+}
+.navbar-menu .navbar-end a {
   margin: auto;
 }
 
