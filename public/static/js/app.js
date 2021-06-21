@@ -30,6 +30,7 @@
         $('.navbar-menu, .hamburger').toggleClass('is-active');
     });
 
+
     //dynamic modal control
     const readMoreLinks = document.querySelectorAll('.readmore')
     var modal = document.getElementById('_modal');
@@ -113,5 +114,7 @@
         }
     }
     
+    //pass
+    //5Bd4%l6-Pw5H
 
 })(jQuery);
