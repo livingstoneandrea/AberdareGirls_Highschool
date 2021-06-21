@@ -39,11 +39,11 @@
         elem.addEventListener('click', (e) => {
             e.preventDefault();
             let data_extras = e.currentTarget.getAttribute('data-extra_info');
-            console.log(`data extras ${e.currentTarget.getAttribute('data-extra_info')}`);
+            console.log(`data extra_info ${e.currentTarget.getAttribute('data-extra_info')}`);
             switch (data_extras) {
                 case "about":
                     image = ""
-                    text_info = "Developers busy "
+                    text_info = "This content is being worked on, it will be up soon"
 
                     document.querySelector("._modal__contents > .wrapper > p").innerHTML = text_info;
                     if (!modal.classList.contains("is-visible"))
